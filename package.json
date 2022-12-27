@@ -10,10 +10,7 @@
     "start": "next start",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf .next/ && npm install && npm run dev"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/creativetimofficial/nextjs-material-kit.git"
-  },
+  "repository": "git+https://github.com/creativetimofficial/nextjs-material-kit.git",
   "keywords": [
     "next",
     "nextjs",
@@ -44,8 +41,8 @@
     "react-datetime": "3.1.1",
     "react-dom": "18.2.0",
     "react-slick": "0.29.0",
-    "styled-components": "5.3.5",
     "sass": "1.54.4",
+    "styled-components": "5.3.5",
     "webpack": "5.74.0"
   },
   "peerDependencies": {
